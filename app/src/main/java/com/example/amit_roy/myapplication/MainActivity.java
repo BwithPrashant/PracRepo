@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         showdata obj = new showdata();
         obj.setdata("PrashantK");
         String str = obj.getdata();
+
         textView.setText(str);
     }
 
